@@ -1,0 +1,157 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #39424E;
+	color: white;
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	border-bottom: 3px #2d343e solid;
+}
+
+.logo {
+	font-size: 45px;
+	padding-left: 30px;
+	color: white;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.logo:visited {
+	text-decoration: none;
+}
+
+.main {
+	width: 100%;
+	height: 500px;
+	display: block;
+	position: relative;
+	background-color: #000;
+	opacity: 0.9;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.main-text {
+	color: white;
+	line-height: 250px;
+	font-size: 50px;
+}
+
+.signup-button {
+	background-color: #03C03C;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 175px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.signup-button:hover {
+	background-color: #029930;
+	cursor: pointer;
+}
+
+.login-button {
+	background-color: #779ECB;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 175px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.login-button:hover {
+	background-color: #5f7ea2;
+	cursor: pointer;
+}
+
+.main::after {
+	content: "";
+	background: url(../images/main.jpg);
+	background-size: cover;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;  
+}
+
+.section {
+	padding: 100px 10%;
+	width: 75%;
+	margin: auto;
+}
+
+.section-body {
+	display: inline-block;
+	width: 100%;
+}
+
+.section-heading {
+	font-size: 45px;
+	padding: 20px 0;
+}
+
+.section-content {
+
+}
+
+.section-img {
+	display: inline-block;
+}
+
+.section-img img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.signup-form-element {
+	color: white;
+	font-size: 30px;
+	display: block;
+}
+
+.upload-content {
+	height: 100%;
+	width: 100%;
+}
+
+.file-hierarchy {
+	height: 100%;
+	width: 29%;
+	border-right: 2px black solid;
+	display: inline-block;
+}
+
+.upload-area {
+	height: 100%;
+	width: 70%;
+	display: inline-block;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>File Sharing - Sign up</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src='javascripts/login.js'></script>
+</head>
+<body ng-app='login' ng-controller='LoginCtrl'>
+<div class="main-content">
+	<div class="header">
+		<div class="logo"><a href="/"><i class="fa fa-file"></i> File Sharing</a></div>
+		<!--<div class="nav-bar">
+			<ul>
+				<li><a href="/">Upload</a></li>
+				<li><a href="/signout">Log Out</a></li>
+			</ul>
+		</div>-->
+	</div>
+	<!-- Image by Alan Levine (https://www.flickr.com/photos/cogdog/)
+		Shared under CC Attribution 2.0 Generic (CC BY 2.0) -->
+	<div class="main">
+		<div class="main-text">Welcome back!</div>
+		<table class="signup-table">
+			<tr>
+				<td><div class="signup-form-element">Username (Email):</div></td>
+				<td><input type="text" ng-model="username"></td>
+			</tr>
+			<tr>
+				<td><div class="signup-form-element">Password:</div></td>
+				<td><input type="password" ng-model="password"></td>
+			</tr>
+		</table>
+		<div class="login-button" ng-click="login()">Log in</div>
+	</div>
+	<div class="push"></div>
+</div>
+	<div class="footer">FS360 &copy; 2016</div>
+</body>
+</html>

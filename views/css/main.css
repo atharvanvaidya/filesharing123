@@ -1,0 +1,243 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	background-color: #39424E;
+	color: white;
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	border-bottom: 3px #2d343e solid;
+}
+
+.logo {
+	font-size: 45px;
+	padding-left: 30px;
+	color: white;
+	width: 295px;
+	display: inline-block;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.logo:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-bar {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.nav-bar li {
+	display: inline;
+	padding-right: 25px;
+	font-size: 20px;
+}
+
+.main {
+	width: 100%;
+	height: 500px;
+	display: block;
+	position: relative;
+	background-color: #000;
+	opacity: 0.9;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.main-text {
+	color: white;
+	font-size: 50px;
+	margin: 100px 0;
+}
+
+.signup-button {
+	background-color: #03C03C;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 175px;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+.signup-button:hover {
+	background-color: #029930;
+	cursor: pointer;
+}
+
+.login-button {
+	background-color: #779ECB;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 175px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.login-button:hover {
+	background-color: #5f7ea2;
+	cursor: pointer;
+}
+
+.main::after {
+	content: "";
+	
+	background-size: cover;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;  
+}
+
+.section {
+	padding: 100px 10%;
+	width: 75%;
+	margin: auto;
+}
+
+.section-body {
+	display: inline-block;
+	width: 100%;
+}
+
+.section-heading {
+	font-size: 45px;
+	padding: 20px 0;
+}
+
+.section-content {
+
+}
+
+.section-img {
+	display: inline-block;
+}
+
+.section-img img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.signup-form-element {
+	color: white;
+	font-size: 30px;
+	display: block;
+}
+
+.upload-form-element {
+	font-size: 30px;
+	display: block;
+	position: relative;
+	line-height: 45px;
+}
+
+.form-box {
+	font-size: 20px;
+	float: right;
+}
+
+.upload-content {
+	height: 100%;
+	width: 100%;
+}
+
+.file-hierarchy {
+	box-sizing: border-box;
+	height: 100%;
+	width: 30%;
+	border-right: 2px black solid;
+	float: left;
+	padding: 20px 10px;
+	overflow-y: auto;
+}
+
+.file-desc {
+	font-weight: bold;
+}
+
+.file-info {
+	padding-left: 10px;
+}
+
+.upload-area {
+	box-sizing: border-box;
+	height: 100%;
+	width: 70%;
+	display: inline-block;
+	padding: 20px 10px;
+	overflow-y: auto;
+}
+
+.explainer {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.area-content {
+	margin: 20px;
+}
+
+td {
+	padding-right: 20px;
+}
+
+table.signup-table {
+	margin: auto;
+}
+
+.main-content {
+	min-height: 100%;
+	margin: 0 auto -40px;
+}
+
+
+
+@media (max-width: 775px) {
+	.main {
+		min-height: 100px;
+	}
+}
+
+@media (max-width: 360px) {
+	.logo {
+		font-size: 30px;
+	}
+}
